@@ -1,0 +1,18 @@
+-- Problem: find the IDs of the invalid tweets. The tweet is invalid if the number of characters used in the content of the tweet is strictly greater than 15.
+-- Leetcode: https://leetcode.com/problems/invalid-tweets/
+-- Difficulty: Easy
+-- Table: Tweets
+-- +----------------+---------+
+-- | Column Name    | Type    |
+-- +----------------+---------+
+-- | tweet_id       | int     |
+-- | content        | varchar |
+-- +----------------+---------+
+
+-- SOLUTION:
+SELECT 
+    tweet_id
+FROM
+    Tweets
+WHERE
+    LENGTH(content) > 15;
