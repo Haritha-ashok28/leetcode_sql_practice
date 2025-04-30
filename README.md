@@ -11,4 +11,5 @@ This repository contains my solutions to SQL problems on [LeetCode](https://leet
 
 ## Difficulty Levels
 Easy
+
 Medium
