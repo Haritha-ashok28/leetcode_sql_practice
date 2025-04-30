@@ -1,5 +1,5 @@
 -- Problem : Find the employees who earn the second-highest salary in each department. If multiple employees have the second-highest salary, include all employees with that salary.
--- Leetcode https://leetcode.com/problems/second-highest-salary-ii/
+-- Leetcode: https://leetcode.com/problems/second-highest-salary-ii/
 -- Difficulty: Medium
 
 -- Table: employees
